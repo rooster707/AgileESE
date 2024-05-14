@@ -7,7 +7,7 @@ const mongoose = require('./database/mongoose');
 
 //load fabric environemtn
 require('./loaders/fabric-loader');
-
+console.log("Hello");
 
 //third party libraries
 let createError = require('http-errors');
