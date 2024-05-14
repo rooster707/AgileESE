@@ -9,6 +9,10 @@ const mongoose = require('./database/mongoose');
 require('./loaders/fabric-loader');
 console.log("Hello");
 
+for (let i = 0; i < 10000; i++) {
+  console.log("Hello");
+}
+
 //third party libraries
 let createError = require('http-errors');
 let express = require('express');
